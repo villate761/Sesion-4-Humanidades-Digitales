@@ -1,0 +1,21 @@
+div {
+  background-color: blue;
+  width: 20px;; 
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+  top: 100px;
+  left: 50%;
+  animation-name: circulo;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes circulo {
+  0% {
+    background-color: blue;
+  }
+  100% {
+    background-color: red;
+  }
+}
